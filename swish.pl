@@ -18,8 +18,8 @@ mae(patricia, luca).		/*1  minha mãe*/
 mae(lucia, lorenzo).		/*2  tia lu e lorenzo*/
 mae(estela, patricia).		/*3  vó estela e minha mãe*/
 mae(estela, renata).		/*3  vó estela e tia renata*/
-mae(carmelina, ernesto).	/*4  bisa ilda e vô ernesto*/
-mae(ilda, estela).		    /*5  bisa carmelina e vó estela*/
+mae(carmelina, ernesto).	/*4  bisa carmelina e vô ernesto*/
+mae(ilda, estela).		    /*5  bisa ilda e vó estela*/
 mae(odete, ricardo).		/*6  vó odete e meu pai*/
 mae(odete, lucia).			/*7  vó odete e tia lu*/
 mae(raimunda, odete).		/*8  raimunda e vó odete*/
