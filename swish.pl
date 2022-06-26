@@ -7,7 +7,7 @@ pai(nicolau, ernesto).		/*4  bisa nicolau e vô ernesto*/
 pai(antonio, estela).		/*5  bisa nicolau e vó estela*/
 pai(sebastiao, ricardo).	/*6  bastião e meu pai*/
 pai(sebastiao, lucia).		/*7  bastião e tia lu*/
-pai(joao, sebastiao).		/*8  pai do bastião q eu não sei o nome*/
+pai(luiz, sebastiao).		/*8  bisa luiz e bastião*/
 pai(raimundo, odete).		/*9  raimundo e vó odete*/
 
 /*--------------------------------------------------------------------*/
@@ -23,7 +23,7 @@ mae(ilda, estela).		    /*5  bisa ilda e vó estela*/
 mae(odete, ricardo).		/*6  vó odete e meu pai*/
 mae(odete, lucia).			/*7  vó odete e tia lu*/
 mae(raimunda, odete).		/*8  raimunda e vó odete*/
-mae(maria, sebastiao).		/*9  mãe do bastião q eu não sei o nome*/
+mae(maria, sebastiao).		/*9  bisa maria e bastião*/
 
 /*--------------------------------------------------------------------*/
 
