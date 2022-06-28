@@ -8,7 +8,7 @@ pai(antonio, estela).		/*5  bisa nicolau e vó estela*/
 pai(sebastiao, ricardo).	/*6  bastião e meu pai*/
 pai(sebastiao, lucia).		/*7  bastião e tia lu*/
 pai(luiz, sebastiao).		/*8  bisa luiz e bastião*/
-pai(raimundo, odete).		/*9  raimundo e vó odete*/
+pai(raimundo, odete).		/*9  raimundo e vó odete*/false
 
 /*--------------------------------------------------------------------*/
 
@@ -27,25 +27,38 @@ mae(maria, sebastiao).		/*9  bisa maria e bastião*/
 
 /*--------------------------------------------------------------------*/
 
+/* Relação de irmão/irmã */
+
+irmao(X, Y) :-
+    pai(Z, X),pai(Z, Y),X\==Y.
+Maria
+/*--------------------------------------------------------------------*/
+
 /* Relação de tio/tia */
 
-/* TO DO */
+tio(X, Y) :-
+    pai(Z, Y),irmao(Z, X),X\==Z.
+tio(X, Y) :-
+    mae(Z, Y),irmao(Z, X),X\==Z.
 
 /*--------------------------------------------------------------------*/
 
 /* Relação de primo/prima */
 
-/* TO DO */
-
+primo(X, Y) :-
+    tio(Z, X),pai(Z, Y).
+primo(X, Y) :-
+    tio(Z, X),mae(Z, Y).
+    
 /*--------------------------------------------------------------------*/
 
 /* Relação de neto/neta */
 
-neto(X, Z) :-
-    pai(X, Y),pai(Y, Z).
-neto(X, Z) :-
-    pai(X, Y),mae(Y, Z).
-neto(X, Z) :-
-    mae(X, Y),pai(Y, Z).
-neto(X, Z) :-
-    mae(X, Y),mae(Y, Z).
+neto(X, Y) :-
+    pai(Z, X),pai(Y, Z).
+neto(X, Y) :-
+    pai(Z, X),mae(Y, Z).
+neto(X, Y) :-
+    mae(Z, X),pai(Y, Z).
+neto(X, Y) :-
+    mae(Z, X),mae(Y, Z).
