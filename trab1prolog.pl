@@ -8,8 +8,8 @@ pai(antonio, estela).		/*5  bisa nicolau e vó estela*/
 pai(sebastiao, ricardo).	/*6  bastião e meu pai*/
 pai(sebastiao, lucia).		/*7  bastião e tia lu*/
 pai(luiz, sebastiao).		/*8  bisa luiz e bastião*/
-pai(raimundo, odete).		/*9  raimundo e vó odete*/false
-
+pai(raimundo, odete).		/*9  raimundo e vó odete*/
+https://github.com/luca-ferro/prologtrab1/blob/main/trab1prolog.pl
 /*--------------------------------------------------------------------*/
 
 /* Relação de mãe */
