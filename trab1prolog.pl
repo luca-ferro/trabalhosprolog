@@ -9,7 +9,7 @@ pai(sebastiao, ricardo).	/*6  bastião e meu pai*/
 pai(sebastiao, lucia).		/*7  bastião e tia lu*/
 pai(luiz, sebastiao).		/*8  bisa luiz e bastião*/
 pai(raimundo, odete).		/*9  raimundo e vó odete*/
-https://github.com/luca-ferro/prologtrab1/blob/main/trab1prolog.pl
+
 /*--------------------------------------------------------------------*/
 
 /* Relação de mãe */
@@ -31,7 +31,7 @@ mae(maria, sebastiao).		/*9  bisa maria e bastião*/
 
 irmao(X, Y) :-
     pai(Z, X),pai(Z, Y),X\==Y.
-Maria
+
 /*--------------------------------------------------------------------*/
 
 /* Relação de tio/tia */
