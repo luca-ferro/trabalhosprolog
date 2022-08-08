@@ -1,5 +1,4 @@
 <h1><b>Trabalhos de Programação Lógica</b></h1>
-<br>
 <h2>Primeiro programa Prolog</h2>
 Usando os fatos pai e mãe escreva em PROLOG, conforme exemplificado em aula, no mínimo, três gerações familiares (bisavós, avós, pais e filhos). Inclua também regras para as relações tio, primo e neto.
 
